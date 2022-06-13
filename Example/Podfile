@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZXX_Pod_xxz_Example' do
+  pod 'ZXX_Pod_xxz', :path => '../'
+
+  target 'ZXX_Pod_xxz_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
