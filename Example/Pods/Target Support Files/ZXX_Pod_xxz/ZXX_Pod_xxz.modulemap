@@ -1,0 +1,6 @@
+framework module ZXX_Pod_xxz {
+  umbrella header "ZXX_Pod_xxz-umbrella.h"
+
+  export *
+  module * { export * }
+}
